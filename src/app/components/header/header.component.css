@@ -1,0 +1,36 @@
+header{
+    background-color: #8400ff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+/*estilo logo*/
+.logo{
+    width: calc(50% - 1em);
+}
+.logo img{
+    width: 150px;
+}
+
+/*estilo botones social*/
+.social{
+    width: calc(50% - 1em);
+}
+.social ul{
+    display: flex;
+    justify-content: flex-end
+}
+.social ul li{
+    list-style: none;
+    margin: 1px;
+}
+.social ul li a img{
+    width: 50px;
+}
+
+/*estilo banner*/
+.banner img{
+    width: 100%;
+    height: 18em;
+}
